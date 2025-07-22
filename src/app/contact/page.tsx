@@ -2,7 +2,6 @@ import PageHeader from '@/components/page-header';
 import { Card, CardContent, CardHeader, CardTitle } from '@/components/ui/card';
 import { Mail, MapPin, Phone } from 'lucide-react';
 import { ContactForm } from './contact-form';
-import Image from 'next/image';
 
 export default function ContactPage() {
   return (
@@ -50,7 +49,7 @@ export default function ContactPage() {
         <div className="mt-24">
             <h2 className="text-3xl font-bold font-headline text-primary text-center">Our Location</h2>
             <div className="mt-8 h-96 rounded-lg overflow-hidden relative shadow-lg">
-                <Image src="https://placehold.co/1200x500" alt="Map to office" layout="fill" objectFit="cover" data-ai-hint="world map" />
+                <img src="https://placehold.co/1200x500" alt="Map to office" className="w-full h-full object-cover" data-ai-hint="world map" />
             </div>
         </div>
       </div>

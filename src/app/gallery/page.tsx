@@ -5,7 +5,6 @@ import PageHeader from '@/components/page-header';
 import { Card, CardContent } from '@/components/ui/card';
 import { Dialog, DialogContent, DialogTrigger } from '@/components/ui/dialog';
 import { Tabs, TabsContent, TabsList, TabsTrigger } from '@/components/ui/tabs';
-import Image from 'next/image';
 import { PlayCircle, Image as ImageIcon } from 'lucide-react';
 
 const images = [
@@ -51,12 +50,12 @@ export default function GalleryPage() {
                   <DialogTrigger asChild>
                     <Card className="overflow-hidden cursor-pointer group">
                       <CardContent className="p-0">
-                        <Image src={image.src} alt={image.alt} width={600} height={400} className="w-full h-auto object-cover transition-transform duration-300 group-hover:scale-105" data-ai-hint={image.dataAiHint} />
+                        <img src={image.src} alt={image.alt} width={600} height={400} className="w-full h-auto object-cover transition-transform duration-300 group-hover:scale-105" data-ai-hint={image.dataAiHint} />
                       </CardContent>
                     </Card>
                   </DialogTrigger>
                   <DialogContent className="max-w-4xl p-0">
-                     <Image src={image.src} alt={image.alt} width={1200} height={800} className="w-full h-auto" data-ai-hint={image.dataAiHint}/>
+                     <img src={image.src} alt={image.alt} width={1200} height={800} className="w-full h-auto" data-ai-hint={image.dataAiHint}/>
                   </DialogContent>
                 </Dialog>
               ))}
@@ -69,7 +68,7 @@ export default function GalleryPage() {
                     <DialogTrigger asChild>
                         <Card className="overflow-hidden cursor-pointer group relative">
                             <CardContent className="p-0">
-                                <Image src={video.thumbnail} alt={video.alt} width={600} height={400} className="w-full h-auto object-cover transition-transform duration-300 group-hover:scale-105" data-ai-hint={video.dataAiHint} />
+                                <img src={video.thumbnail} alt={video.alt} width={600} height={400} className="w-full h-auto object-cover transition-transform duration-300 group-hover:scale-105" data-ai-hint={video.dataAiHint} />
                                 <div className="absolute inset-0 bg-black/40 flex items-center justify-center">
                                     <PlayCircle className="h-16 w-16 text-white/80 group-hover:text-white transition-colors" />
                                 </div>

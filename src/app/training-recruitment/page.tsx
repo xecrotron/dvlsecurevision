@@ -2,7 +2,6 @@ import PageHeader from '@/components/page-header';
 import { Button } from '@/components/ui/button';
 import { Card, CardContent, CardHeader, CardTitle } from '@/components/ui/card';
 import { Check, ClipboardList, Target, UserCheck, Shield, BrainCircuit } from 'lucide-react';
-import Image from 'next/image';
 
 const trainingModules = [
     "Physical Fitness and Unarmed Combat",
@@ -27,7 +26,7 @@ export default function TrainingRecruitmentPage() {
                 <Button className="mt-6" asChild><a href="/career">Join Our Team</a></Button>
             </div>
             <div className="relative h-96 rounded-lg overflow-hidden shadow-xl">
-                <Image src="https://placehold.co/600x400" alt="Security training session" layout="fill" objectFit="cover" data-ai-hint="security training" />
+                <img src="https://placehold.co/600x400" alt="Security training session" className="w-full h-full object-cover" data-ai-hint="security training" />
             </div>
         </div>
 
@@ -83,7 +82,7 @@ export default function TrainingRecruitmentPage() {
 
         <div className="mt-24 grid md:grid-cols-2 gap-12 items-center">
             <div className="relative h-96 rounded-lg overflow-hidden shadow-xl">
-                <Image src="https://placehold.co/600x400" alt="Intensive training drill" layout="fill" objectFit="cover" data-ai-hint="obstacle course" />
+                <img src="https://placehold.co/600x400" alt="Intensive training drill" className="w-full h-full object-cover" data-ai-hint="obstacle course" />
             </div>
             <div>
                 <h2 className="text-3xl font-bold font-headline text-primary">Intensive & Specialized Training</h2>
