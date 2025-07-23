@@ -1,4 +1,3 @@
-import Image from 'next/image';
 
 type PageHeaderProps = {
   title: string;
@@ -9,12 +8,10 @@ type PageHeaderProps = {
 export default function PageHeader({ title, breadcrumb, imageUrl = "https://placehold.co/1920x400" }: PageHeaderProps) {
   return (
     <div className="relative h-64 md:h-80 w-full">
-      <Image 
+      <img 
         src={imageUrl} 
         alt={title} 
-        layout="fill" 
-        objectFit="cover" 
-        className="brightness-50"
+        className="w-full h-full object-cover brightness-50"
         data-ai-hint="abstract texture"
       />
       <div className="absolute inset-0 flex flex-col justify-center items-center text-white text-center p-4">
