@@ -1,9 +1,13 @@
+"use client";
+
 import { Button } from '@/components/ui/button';
 import { Card, CardContent, CardHeader, CardTitle } from '@/components/ui/card';
 import { Carousel, CarouselContent, CarouselItem, CarouselNext, CarouselPrevious } from '@/components/ui/carousel';
 import { Avatar, AvatarFallback, AvatarImage } from "@/components/ui/avatar"
 import Link from 'next/link';
 import { CheckCircle, Quote, ShieldCheck, Users, VenetianMask } from 'lucide-react';
+import Autoplay from "embla-carousel-autoplay"
+import React from 'react';
 
 const services = [
   {
@@ -39,36 +43,30 @@ const testimonials = [
 ];
 
 export default function Home() {
+  const plugin = React.useRef(
+    Autoplay({ delay: 5000, stopOnInteraction: true })
+  );
+
   return (
     <div className="flex flex-col">
       <section className="relative w-full h-[60vh] md:h-[80vh]">
-        <Carousel className="w-full h-full" opts={{ loop: true }}>
+        <Carousel 
+          className="w-full h-full" 
+          opts={{ loop: true }}
+          plugins={[plugin.current]}
+          onMouseEnter={plugin.current.stop}
+          onMouseLeave={plugin.current.reset}
+        >
           <CarouselContent>
             <CarouselItem>
-              <div className="absolute inset-0 bg-black/50"></div>
               <img src="https://placehold.co/1920x1080" alt="Security Guard" className="w-full h-full object-cover" data-ai-hint="security guard" />
-              <div className="absolute inset-0 flex flex-col items-center justify-center text-center text-white p-4">
-                <h1 className="text-4xl md:text-6xl font-bold font-headline">Your Shield in a Risky World</h1>
-                <p className="mt-4 text-lg md:text-xl max-w-2xl">Providing unparalleled security services tailored to your needs.</p>
-                <Button asChild className="mt-8 bg-accent text-accent-foreground hover:bg-accent/90">
-                  <Link href="/contact">Get a Quote</Link>
-                </Button>
-              </div>
             </CarouselItem>
             <CarouselItem>
-              <div className="absolute inset-0 bg-black/50"></div>
               <img src="https://placehold.co/1920x1080" alt="Surveillance" className="w-full h-full object-cover" data-ai-hint="surveillance camera" />
-              <div className="absolute inset-0 flex flex-col items-center justify-center text-center text-white p-4">
-                <h1 className="text-4xl md:text-6xl font-bold font-headline">Advanced Technology, Superior Protection</h1>
-                <p className="mt-4 text-lg md:text-xl max-w-2xl">Leveraging cutting-edge tech for comprehensive security solutions.</p>
-                <Button asChild className="mt-8 bg-accent text-accent-foreground hover:bg-accent/90">
-                  <Link href="/technology">Learn More</Link>
-                </Button>
-              </div>
             </CarouselItem>
           </CarouselContent>
-          <CarouselPrevious className="absolute left-4 top-1/2 -translate-y-1/2" />
-          <CarouselNext className="absolute right-4 top-1/2 -translate-y-1/2" />
+          <CarouselPrevious className="absolute left-4 top-1/2 -translate-y-1/2 text-white bg-black/20 hover:bg-black/40" />
+          <CarouselNext className="absolute right-4 top-1/2 -translate-y-1/2 text-white bg-black/20 hover:bg-black/40" />
         </Carousel>
       </section>
 

@@ -5,7 +5,7 @@ import Link from 'next/link';
 import { usePathname } from 'next/navigation';
 import { Menu } from 'lucide-react';
 import { Button } from '@/components/ui/button';
-import { Sheet, SheetContent, SheetTrigger } from '@/components/ui/sheet';
+import { Sheet, SheetContent, SheetTrigger, SheetTitle, SheetDescription } from '@/components/ui/sheet';
 import { Logo } from '@/components/logo';
 import { cn } from '@/lib/utils';
 
@@ -32,10 +32,12 @@ export function Header() {
     return () => window.removeEventListener('scroll', handleScroll);
   }, []);
 
+  const isHomePage = pathname === '/';
+
   return (
     <header className={cn(
       "sticky top-0 z-50 w-full transition-all duration-300",
-      isScrolled ? "bg-card shadow-md" : "bg-transparent"
+      isScrolled ? "bg-card shadow-md" : (isHomePage ? "bg-transparent" : "bg-card shadow-sm")
     )}>
       <div className="container mx-auto px-4 md:px-6">
         <div className="flex h-20 items-center justify-between">
@@ -47,7 +49,7 @@ export function Header() {
                 href={link.href}
                 className={cn(
                   "font-medium transition-colors hover:text-accent",
-                  pathname === link.href ? "text-accent" : isScrolled ? "text-primary" : "text-white"
+                  pathname === link.href ? "text-accent" : (isScrolled || !isHomePage) ? "text-primary" : "text-white"
                 )}
               >
                 {link.label}
@@ -61,12 +63,16 @@ export function Header() {
             <div className="lg:hidden">
               <Sheet>
                 <SheetTrigger asChild>
-                  <Button variant="ghost" size="icon" className={cn(isScrolled ? "text-primary" : "text-white", "hover:text-accent")}>
+                  <Button variant="ghost" size="icon" className={cn((isScrolled || !isHomePage) ? "text-primary" : "text-white", "hover:text-accent")}>
                     <Menu className="h-6 w-6" />
                     <span className="sr-only">Toggle navigation menu</span>
                   </Button>
                 </SheetTrigger>
                 <SheetContent side="right">
+                    <SheetTitle className="sr-only">Mobile Menu</SheetTitle>
+                    <SheetDescription className="sr-only">
+                        A list of navigation links for the Sentinel Shield website.
+                    </SheetDescription>
                   <div className="flex flex-col space-y-4 p-4">
                     <Logo />
                     {navLinks.map((link) => (
