@@ -1,7 +1,6 @@
 import PageHeader from '@/components/page-header';
 import { Card, CardContent, CardHeader, CardTitle } from '@/components/ui/card';
 import { Camera, Bot, RadioTower, ShieldAlert } from 'lucide-react';
-import Image from 'next/image';
 
 const techItems = [
     {
@@ -40,7 +39,7 @@ export default function TechnologyPage() {
 
         <div className="mt-16 grid md:grid-cols-2 gap-12 items-center">
             <div className="relative h-96 rounded-lg overflow-hidden shadow-xl">
-                <Image src="https://placehold.co/600x400" alt="Futuristic control room" layout="fill" objectFit="cover" data-ai-hint="futuristic control room" />
+                <img src="https://placehold.co/600x400" alt="Futuristic control room" className="w-full h-full object-cover" data-ai-hint="futuristic control room" />
             </div>
             <div>
                 <h3 className="text-2xl font-semibold text-primary">Our Tech-Forward Approach</h3>

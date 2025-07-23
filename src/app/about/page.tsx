@@ -1,7 +1,6 @@
 import PageHeader from '@/components/page-header';
 import { Card, CardContent, CardHeader, CardTitle } from '@/components/ui/card';
 import { CheckCircle, Eye, Heart, Trophy } from 'lucide-react';
-import Image from 'next/image';
 
 const strengths = [
     {
@@ -33,7 +32,7 @@ export default function AboutPage() {
       <div className="container mx-auto py-16 md:py-24 px-4 md:px-6">
         <div className="grid md:grid-cols-2 gap-12 items-center">
           <div className="relative h-[450px] rounded-lg overflow-hidden shadow-xl">
-             <Image src="https://placehold.co/600x800" alt="Company Building" layout="fill" objectFit="cover" data-ai-hint="office building" />
+             <img src="https://placehold.co/600x800" alt="Company Building" className="w-full h-full object-cover" data-ai-hint="office building" />
           </div>
           <div>
             <h2 className="text-3xl font-bold font-headline text-primary">Our Story</h2>

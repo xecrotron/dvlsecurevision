@@ -1,7 +1,6 @@
 import PageHeader from '@/components/page-header';
 import { Card, CardContent, CardHeader, CardTitle } from '@/components/ui/card';
 import { ShieldCheck, Building, Search, Users, Car, HeartPulse, GraduationCap, Dog } from 'lucide-react';
-import Image from 'next/image';
 
 const services = [
   {
@@ -62,7 +61,7 @@ export default function ServicesPage() {
                 </p>
             </div>
              <div className="relative h-96 rounded-lg overflow-hidden shadow-xl">
-                <Image src="https://placehold.co/600x450" alt="Security services collage" layout="fill" objectFit="cover" data-ai-hint="security operations center" />
+                <img src="https://placehold.co/600x450" alt="Security services collage" className="w-full h-full object-cover" data-ai-hint="security operations center" />
             </div>
         </div>
 

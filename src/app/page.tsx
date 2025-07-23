@@ -2,7 +2,6 @@ import { Button } from '@/components/ui/button';
 import { Card, CardContent, CardHeader, CardTitle } from '@/components/ui/card';
 import { Carousel, CarouselContent, CarouselItem, CarouselNext, CarouselPrevious } from '@/components/ui/carousel';
 import { Avatar, AvatarFallback, AvatarImage } from "@/components/ui/avatar"
-import Image from 'next/image';
 import Link from 'next/link';
 import { CheckCircle, Quote, ShieldCheck, Users, VenetianMask } from 'lucide-react';
 
@@ -46,7 +45,8 @@ export default function Home() {
         <Carousel className="w-full h-full" opts={{ loop: true }}>
           <CarouselContent>
             <CarouselItem>
-              <Image src="https://placehold.co/1920x1080" alt="Security Guard" layout="fill" objectFit="cover" className="brightness-50" data-ai-hint="security guard" />
+              <div className="absolute inset-0 bg-black/50"></div>
+              <img src="https://placehold.co/1920x1080" alt="Security Guard" className="w-full h-full object-cover" data-ai-hint="security guard" />
               <div className="absolute inset-0 flex flex-col items-center justify-center text-center text-white p-4">
                 <h1 className="text-4xl md:text-6xl font-bold font-headline">Your Shield in a Risky World</h1>
                 <p className="mt-4 text-lg md:text-xl max-w-2xl">Providing unparalleled security services tailored to your needs.</p>
@@ -56,7 +56,8 @@ export default function Home() {
               </div>
             </CarouselItem>
             <CarouselItem>
-              <Image src="https://placehold.co/1920x1080" alt="Surveillance" layout="fill" objectFit="cover" className="brightness-50" data-ai-hint="surveillance camera" />
+              <div className="absolute inset-0 bg-black/50"></div>
+              <img src="https://placehold.co/1920x1080" alt="Surveillance" className="w-full h-full object-cover" data-ai-hint="surveillance camera" />
               <div className="absolute inset-0 flex flex-col items-center justify-center text-center text-white p-4">
                 <h1 className="text-4xl md:text-6xl font-bold font-headline">Advanced Technology, Superior Protection</h1>
                 <p className="mt-4 text-lg md:text-xl max-w-2xl">Leveraging cutting-edge tech for comprehensive security solutions.</p>
@@ -84,7 +85,7 @@ export default function Home() {
               </Button>
             </div>
             <div className="relative h-80 rounded-lg overflow-hidden shadow-lg">
-              <Image src="https://placehold.co/600x400" alt="Our Team" layout="fill" objectFit="cover" data-ai-hint="security team" />
+              <img src="https://placehold.co/600x400" alt="Our Team" className="w-full h-full object-cover" data-ai-hint="security team" />
             </div>
           </div>
         </div>
@@ -124,7 +125,7 @@ export default function Home() {
           </div>
           <div className="mt-12 grid md:grid-cols-2 gap-12 items-center">
             <div className="relative h-96 rounded-lg overflow-hidden shadow-lg">
-              <Image src="https://placehold.co/600x450" alt="Security professional" layout="fill" objectFit="cover" data-ai-hint="security professional" />
+              <img src="https://placehold.co/600x450" alt="Security professional" className="w-full h-full object-cover" data-ai-hint="security professional" />
             </div>
             <div className="space-y-6">
               <div className="flex items-start gap-4">
