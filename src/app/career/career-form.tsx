@@ -134,7 +134,7 @@ export function CareerForm() {
             <FormItem>
               <FormLabel>Cover Letter (Optional)</FormLabel>
               <FormControl>
-                <Textarea placeholder="Tell us why you are a good fit for Sentinel Shield..." className="min-h-[120px]" {...field} />
+                <Textarea placeholder="Tell us why you are a good fit for DVL Secure Vision..." className="min-h-[120px]" {...field} />
               </FormControl>
               <FormMessage />
             </FormItem>

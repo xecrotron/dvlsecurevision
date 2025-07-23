@@ -7,7 +7,7 @@ export function Logo({ className }: { className?: string }) {
     <Link href="/" className={cn("flex items-center gap-2", className)}>
       <Shield className="h-8 w-8 text-accent" />
       <span className="text-xl font-bold font-headline">
-        Sentinel Shield
+        DVL Secure Vision
       </span>
     </Link>
   );

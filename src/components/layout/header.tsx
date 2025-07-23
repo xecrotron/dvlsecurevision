@@ -71,7 +71,7 @@ export function Header() {
                 <SheetContent side="right">
                     <SheetTitle className="sr-only">Mobile Menu</SheetTitle>
                     <SheetDescription className="sr-only">
-                        A list of navigation links for the Sentinel Shield website.
+                        A list of navigation links for the DVL Secure Vision website.
                     </SheetDescription>
                   <div className="flex flex-col space-y-4 p-4">
                     <Logo />

@@ -1,7 +1,7 @@
-# About Sentinel Shield
+# About DVL Secure Vision
 
 ## Our Story
-Sentinel Shield was established with a singular mission: to provide unparalleled security services that our clients can rely on. We bring together a team of seasoned professionals with extensive experience in security, intelligence, and risk management.
+DVL Secure Vision was established with a singular mission: to provide unparalleled security services that our clients can rely on. We bring together a team of seasoned professionals with extensive experience in security, intelligence, and risk management.
 
 Our commitment to excellence and our client-first philosophy have made us a trusted partner for businesses and individuals across various sectors. We believe in proactive security measures, combining human expertise with cutting-edge technology to stay ahead of threats.
 

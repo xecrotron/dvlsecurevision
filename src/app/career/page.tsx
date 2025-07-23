@@ -11,7 +11,7 @@ export default function CareerPage() {
             <div>
                 <h2 className="text-3xl font-bold font-headline text-primary">Join Our Elite Team</h2>
                 <p className="mt-4 text-lg text-muted-foreground">
-                    At Sentinel Shield, we are always looking for dedicated, professional, and vigilant individuals to join our ranks. We offer a dynamic work environment, continuous training, and opportunities for growth.
+                    At DVL Secure Vision, we are always looking for dedicated, professional, and vigilant individuals to join our ranks. We offer a dynamic work environment, continuous training, and opportunities for growth.
                 </p>
                 <p className="mt-4 text-muted-foreground">
                     If you are ready to take on a new challenge and make a difference, we invite you to submit your application through the form.

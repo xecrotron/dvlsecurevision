@@ -1,7 +1,7 @@
-# Careers at Sentinel Shield
+# Careers at DVL Secure Vision
 
 ## Join Our Elite Team
-At Sentinel Shield, we are always looking for dedicated, professional, and vigilant individuals to join our ranks. We offer a dynamic work environment, continuous training, and opportunities for growth.
+At DVL Secure Vision, we are always looking for dedicated, professional, and vigilant individuals to join our ranks. We offer a dynamic work environment, continuous training, and opportunities for growth.
 
 ## Current Openings
 - Security Officer (New York, NY)

@@ -21,7 +21,7 @@ export default function TrainingRecruitmentPage() {
             <div>
                 <h2 className="text-3xl font-bold font-headline text-primary">Forging Elite Security Professionals</h2>
                 <p className="mt-4 text-lg text-muted-foreground">
-                    Our strength lies in our people. Sentinel Shield's rigorous recruitment and state-of-the-art training programs ensure that every member of our team meets the highest standards of professionalism, skill, and integrity.
+                    Our strength lies in our people. DVL Secure Vision's rigorous recruitment and state-of-the-art training programs ensure that every member of our team meets the highest standards of professionalism, skill, and integrity.
                 </p>
                 <Button className="mt-6" asChild><a href="/career">Join Our Team</a></Button>
             </div>

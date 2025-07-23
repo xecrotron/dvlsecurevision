@@ -13,7 +13,7 @@ const leadershipTeam = [
     bio: 'A visionary leader with over 30 years of experience in global security operations and strategic command.',
     linkedin: '#',
     dataAiHint: 'male portrait',
-    vision: "My vision for Sentinel Shield is to be the undisputed global leader in security, not just by size, but by the trust we earn and the peace of mind we provide. We will innovate relentlessly and uphold the highest standards of integrity to protect our clients in an ever-evolving world. Our team of highly trained and experienced security personnel is committed to ensuring your safety and that of your property at all times. We understand the importance of security in today's world, and we have invested heavily in the latest technologies and equipment to give you the best Service possible."
+    vision: "My vision for DVL Secure Vision is to be the undisputed global leader in security, not just by size, but by the trust we earn and the peace of mind we provide. We will innovate relentlessly and uphold the highest standards of integrity to protect our clients in an ever-evolving world. Our team of highly trained and experienced security personnel is committed to ensuring your safety and that of your property at all times. We understand the importance of security in today's world, and we have invested heavily in the latest technologies and equipment to give you the best Service possible."
   },
   {
     name: 'Colonel Eva Rostova',
@@ -22,7 +22,7 @@ const leadershipTeam = [
     bio: 'Expert in operational efficiency and tactical deployment, ensuring flawless execution of all security protocols.',
     linkedin: '#',
     dataAiHint: 'female portrait',
-    vision: "Operational excellence is the backbone of reliable security. My focus is on honing our processes, empowering our teams, and leveraging technology to ensure that Sentinel Shield delivers flawless, efficient, and proactive protection every single day. In addition to our regular security Services, we also offer specialized security solutions tailored to meet your specific needs. Our team works closely with you to identify potential threats and vulnerabilities, and we develop a comprehensive security plan to mitigate those risks."
+    vision: "Operational excellence is the backbone of reliable security. My focus is on honing our processes, empowering our teams, and leveraging technology to ensure that DVL Secure Vision delivers flawless, efficient, and proactive protection every single day. In addition to our regular security Services, we also offer specialized security solutions tailored to meet your specific needs. Our team works closely with you to identify potential threats and vulnerabilities, and we develop a comprehensive security plan to mitigate those risks."
   },
   {
     name: 'Dr. Alistair Finch',
@@ -50,7 +50,7 @@ export default function LeadershipPage() {
         <div className="text-center">
           <h2 className="text-3xl font-bold font-headline text-primary">Our Executive Team</h2>
           <p className="mt-2 text-lg text-muted-foreground max-w-3xl mx-auto">
-            Meet the experienced leaders guiding Sentinel Shield's mission to provide unparalleled security and peace of mind.
+            Meet the experienced leaders guiding DVL Secure Vision's mission to provide unparalleled security and peace of mind.
           </p>
         </div>
         <div className="mt-12 space-y-20">

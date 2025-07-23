@@ -29,7 +29,7 @@ const services = [
 
 const testimonials = [
   {
-    quote: "Sentinel Shield's professionalism and attention to detail are unmatched. We trust them completely with our security.",
+    quote: "DVL Secure Vision's professionalism and attention to detail are unmatched. We trust them completely with our security.",
     name: 'John Doe',
     title: 'CEO, TechCorp',
     avatar: 'https://placehold.co/100x100'
@@ -74,9 +74,9 @@ export default function Home() {
         <div className="container mx-auto px-4 md:px-6">
           <div className="grid md:grid-cols-2 gap-12 items-center">
             <div>
-              <h2 className="text-3xl font-bold font-headline text-primary">About Sentinel Shield</h2>
+              <h2 className="text-3xl font-bold font-headline text-primary">About DVL Secure Vision</h2>
               <p className="mt-4 text-lg text-muted-foreground">
-                Founded on the principles of integrity, vigilance, and professionalism, Sentinel Shield has grown to become a leading name in the security industry. We are dedicated to providing our clients with the highest level of protection, ensuring their safety and peace of mind.
+                Founded on the principles of integrity, vigilance, and professionalism, DVL Secure Vision has grown to become a leading name in the security industry. We are dedicated to providing our clients with the highest level of protection, ensuring their safety and peace of mind.
               </p>
               <Button asChild className="mt-6">
                 <Link href="/about">Discover More</Link>
@@ -119,7 +119,7 @@ export default function Home() {
       <section id="why-us" className="py-16 md:py-24">
         <div className="container mx-auto px-4 md:px-6">
           <div className="text-center">
-            <h2 className="text-3xl font-bold font-headline text-primary">Why Choose Sentinel Shield?</h2>
+            <h2 className="text-3xl font-bold font-headline text-primary">Why Choose DVL Secure Vision?</h2>
           </div>
           <div className="mt-12 grid md:grid-cols-2 gap-12 items-center">
             <div className="relative h-96 rounded-lg overflow-hidden shadow-lg">

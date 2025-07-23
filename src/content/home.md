@@ -1,10 +1,10 @@
-# Welcome to Sentinel Shield
+# Welcome to DVL Secure Vision
 
 ## Your Shield in a Risky World
 Providing unparalleled security services tailored to your needs.
 
-## About Sentinel Shield
-Founded on the principles of integrity, vigilance, and professionalism, Sentinel Shield has grown to become a leading name in the security industry.
+## About DVL Secure Vision
+Founded on the principles of integrity, vigilance, and professionalism, DVL Secure Vision has grown to become a leading name in the security industry.
 
 ## Our Core Services
 - Manned Guarding

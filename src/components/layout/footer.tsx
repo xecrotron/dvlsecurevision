@@ -57,7 +57,7 @@ export function Footer() {
           </div>
         </div>
         <div className="mt-8 pt-8 border-t border-primary-foreground/10 text-center text-sm text-primary-foreground/50">
-          <p>&copy; {new Date().getFullYear()} Sentinel Shield. All Rights Reserved.</p>
+          <p>&copy; {new Date().getFullYear()} DVL Secure Vision. All Rights Reserved.</p>
         </div>
       </div>
     </footer>

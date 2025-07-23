@@ -1,7 +1,7 @@
 # Our Leadership
 
 ## Executive Team
-Meet the experienced leaders guiding Sentinel Shield's mission to provide unparalleled security and peace of mind.
+Meet the experienced leaders guiding DVL Secure Vision's mission to provide unparalleled security and peace of mind.
 
 - **General Armitage**: Chairman & CEO
 - **Colonel Eva Rostova**: Chief Operating Officer

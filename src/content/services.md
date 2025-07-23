@@ -1,7 +1,7 @@
 # Our Services
 
 ## Comprehensive Security Solutions
-Sentinel Shield offers a holistic approach to security. We analyze your unique vulnerabilities and design a multi-layered strategy that integrates expert personnel, advanced technology, and proven protocols.
+DVL Secure Vision offers a holistic approach to security. We analyze your unique vulnerabilities and design a multi-layered strategy that integrates expert personnel, advanced technology, and proven protocols.
 
 ## Service Portfolio
 - Manned Guarding Services

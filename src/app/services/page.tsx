@@ -54,7 +54,7 @@ export default function ServicesPage() {
             <div>
                 <h2 className="text-3xl font-bold font-headline text-primary">Comprehensive Security Solutions</h2>
                 <p className="mt-4 text-lg text-muted-foreground">
-                    Sentinel Shield offers a holistic approach to security. We analyze your unique vulnerabilities and design a multi-layered strategy that integrates expert personnel, advanced technology, and proven protocols. Our goal is to create a secure environment where you can operate with confidence and peace of mind.
+                    DVL Secure Vision offers a holistic approach to security. We analyze your unique vulnerabilities and design a multi-layered strategy that integrates expert personnel, advanced technology, and proven protocols. Our goal is to create a secure environment where you can operate with confidence and peace of mind.
                 </p>
                  <p className="mt-4 text-muted-foreground">
                     From physical guarding to complex investigations, our diverse portfolio of services ensures that we can meet any security challenge.
