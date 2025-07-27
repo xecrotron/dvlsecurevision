@@ -13,11 +13,11 @@ const navLinks = [
   { href: '/', label: 'Home' },
   { href: '/about', label: 'About Us' },
   { href: '/leadership', label: 'Leadership' },
-  { href: '/services', label: 'Services' },
+  // { href: '/services', label: 'Services' },
   { href: '/training-recruitment', label: 'Training' },
   { href: '/career', label: 'Career' },
-  { href: '/gallery', label: 'Gallery' },
-  { href: '/technology', label: 'Technology' },
+  // { href: '/gallery', label: 'Gallery' },
+  // { href: '/technology', label: 'Technology' },
 ];
 
 export function Header() {

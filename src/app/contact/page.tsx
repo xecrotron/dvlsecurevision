@@ -25,7 +25,7 @@ export default function ContactPage() {
                 </div>
                 <div className="flex items-center gap-4">
                   <Mail className="h-6 w-6 text-accent" />
-                  <span>contact@sentinelshield.com</span>
+                  <span>contact@dvlSecuresision.com</span>
                 </div>
                 <div className="flex items-start gap-4">
                   <MapPin className="h-6 w-6 text-accent mt-1" />
